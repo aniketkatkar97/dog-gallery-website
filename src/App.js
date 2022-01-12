@@ -102,6 +102,7 @@ function App() {
         </div>
         {breeds.length === 0 ? (
           <h1>Please wait while we fetch the data from the server...</h1>
+          <h2>This may take 1 to 2 minutes.</h2>
         ) : filterResults === 0 ? (
           <DogImages breeds={breeds} />
         ) : (
